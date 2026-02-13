@@ -1,0 +1,44 @@
+# =========================
+# Compilados y ejecutables
+# =========================
+
+*.o
+*.out
+*.exe
+*.a
+*.so
+
+# Ejecutables generados manualmente
+reservas
+prueba
+
+# =========================
+# Core dumps (crash files)
+# =========================
+
+core
+core.*
+*.core
+
+# =========================
+# Archivos temporales
+# =========================
+
+*.log
+*~
+*.swp
+
+# =========================
+# Carpetas de editores / IDE
+# =========================
+
+.vscode/
+.idea/
+*.code-workspace
+
+# =========================
+# Archivos del sistema
+# =========================
+
+.DS_Store
+Thumbs.db
